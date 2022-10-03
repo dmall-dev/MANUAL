@@ -6,3 +6,6 @@ HHTML, CSS &amp; JS project
 <p align="center">
   <img src="https://media.giphy.com/media/ix8dIWbEovToc/giphy.gif" width="200px"/>
 </p>
+## Authors
+
+- [@DmallX](https://github.com/DmallX)

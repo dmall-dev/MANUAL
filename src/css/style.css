@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+li, a, button {
+  text-decoration: none;
+  color: #0B3B3C;
+}
+
+.wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #fff;
+}
+
+/*Header*\ */
+.header {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+  color: #0B3B3C;
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 8vh;
+  text-transform: uppercase;
+  color: #0B3B3C;
+}
+.header .menu__bar {
+  margin-left: 3rem;
+}
+.header .menu__bar a {
+  margin-right: 3rem;
+}
+.header .menu__bar a:visited {
+  color: #0B3B3C;
+}
+.header .menu__bar .nav__links {
+  list-style: none;
+}
+.header .menu__bar .nav__links li {
+  display: inline-block;
+}
+.header .menu__login {
+  margin-right: 3rem;
+}
+.header .menu__login .shop-bag {
+  position: relative;
+  padding-bottom: 2px;
+}
+.header .menu__login a {
+  margin-left: 3rem;
+}
+.header .menu__login a:visited {
+  color: #0B3B3C;
+}
+.header .menu__login .nav__links {
+  list-style: none;
+}
+.header .menu__login .nav__links li {
+  display: inline-block;
+}
+.header .menu .manual {
+  margin: 0 auto;
+}
+
+/*Intro*\ */
+.intro {
+  background: url("/img/intro.svg") fixed;
+  background-size: cover;
+  min-height: 95vh;
+  min-width: 100%;
+  font-family: "Roboto", serif;
+  color: #0B3B3C;
+}
+.intro h1 {
+  font-weight: 700;
+  font-size: 3.375vw;
+  letter-spacing: 0.05vw;
+  line-height: 5vw;
+  margin: 0 5px 3vh 0;
+  text-align: center;
+}
+.intro p {
+  font-weight: 400;
+  font-size: 1.3vw;
+  line-height: 2vw;
+  margin: 0 5px;
+  text-align: center;
+}
+.intro__main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 18vh;
+}
+
+/*Button*\ */
+.main__btn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 8vh;
+}
+.main__btn a {
+  height: 7vh;
+  width: 22vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+  font-size: 1.2vw;
+  font-weight: regular;
+}
+.main__btn .btn1 {
+  color: #fff;
+  background-color: #7E0707;
+  border: solid 3px #7E0707;
+}
+.main__btn .btn2 {
+  color: #7E0707;
+  border: solid 3px #7E0707;
+}
+
+/*Main*\ */
